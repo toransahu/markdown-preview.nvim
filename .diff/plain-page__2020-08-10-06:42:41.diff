@@ -1,0 +1,25 @@
+diff --git a/app/_static/markdown.css b/app/_static/markdown.css
+index 7e4f36a..272a96f 100644
+--- a/app/_static/markdown.css
++++ b/app/_static/markdown.css
+@@ -21,7 +21,7 @@
+   word-wrap: break-word;
+   padding: 45px;
+   background: #fff;
+-  border: 1px solid #ddd;
++  /* border: 1px solid #ddd; */
+   -webkit-border-radius: 0 0 3px 3px;
+   border-radius: 0 0 3px 3px;
+ }
+diff --git a/app/_static/page.css b/app/_static/page.css
+index 2da0201..a7b254a 100644
+--- a/app/_static/page.css
++++ b/app/_static/page.css
+@@ -12,6 +12,7 @@
+   border-width: 1px 1px 0;
+   border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
++  display: none;
+ }
+ 
+ #page-header svg {
